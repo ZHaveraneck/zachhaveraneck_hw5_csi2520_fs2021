@@ -6,24 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="./CSS/stylesheet.css">
+    <link rel="stylesheet" href="../public/CSS/stylesheet.css">
+    <script defer src="../public/JS/trivia.js"></script>
     
     <script src="https://kit.fontawesome.com/104498a5ae.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="Images/OUStackedSail.jpg" type="image/jpg">
     <nav>
         <ul>
-            <li><a href="./index.ejs">Home Page</a></li>
-            <li><a href="./blog.ejs">Resume Page</a></li>
-            <li><a href="./fun_facts.ejs">Fun Facts</a></li>
-            <li><a href="./resume.ejs">Blog</a></li>
-            <li><a href="./trivia.ejs">Trivia</a></li>
+            <li><a href="/">Home Page</a></li>
+            <li><a href="/blog">Resume Page</a></li>
+            <li><a href="/fun_facts">Fun Facts</a></li>
+            <li><a href="/resume">Blog</a></li>
+            <li><a href="/trivia">Trivia</a></li>
         </ul>
     </nav> 
 </head>
 <body>
 
     <main>
+
+        <h1 class="coolclass">Trivia Questions</h1>
+        <div id="question" class="coolClass"></div>
+        <br>
+        <button id="submit">Get Results</button>
+        <br><br>
+        <h1 class="coolclass">Results</h1>
+        <div class="coolClass" id="results">
+
+        </div>
 
 
 
