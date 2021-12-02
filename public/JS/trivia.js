@@ -86,9 +86,9 @@ var myQuestions = [
         userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
         if(userAnswer===questions[i].correctAnswer){
           numCorrect++;
-          answerContainers[i].style.color = '#ff895d';
+          answerContainers[i].style.color = 'black';
         }else{
-          answerContainers[i].style.color = 'transparent';
+          answerContainers[i].style.color = 'black';
         }
       }
   
