@@ -1,5 +1,5 @@
 window.onload = function setTemplate() {
-    document.getElementById('allComments').innerHTML = localStorage.getItem('template');
+    document.getElementById('allComments').innerHTML
 };
 
 const commentContainer = document.getElementById('allComments');
